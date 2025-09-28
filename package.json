@@ -1,0 +1,29 @@
+{
+  "name": "upload-management-platform",
+  "version": "1.0.0",
+  "description": "Upload Management Platform with React frontend and Node.js backend",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "cd server && npm run dev",
+    "client:build": "cd client && npm run build",
+    "server:start": "cd server && npm start",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "npm run client:build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13"
+  },
+  "keywords": [
+    "react",
+    "node.js",
+    "express",
+    "postgresql",
+    "file-upload"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
