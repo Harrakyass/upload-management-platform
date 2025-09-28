@@ -72,6 +72,28 @@ npm run build
 npm run server:start
 ```
 
+## Application Screenshots
+
+### Login Interface
+![Login Page](./screenshots/login.png)
+*Secure authentication system with role-based access (Admin/Client) and quick test login options*
+
+### Admin Dashboard
+![Admin Dashboard](./screenshots/dashboard.png)
+*Comprehensive overview showing user statistics, file counts, and active upload windows with intuitive metrics*
+
+### File Management
+![File Management](./screenshots/file-management.png)
+*Efficient file listing with detailed metadata, upload tracking, and download capabilities*
+
+### User Management System
+![User Management](./screenshots/user-management.png)
+*Complete user administration with role assignment, file tracking, and account creation*
+
+### Upload Windows Management
+![Upload Windows](./screenshots/upload-windows.png)
+*Advanced time-based upload control with deadline management and client-specific permissions*
+
 ## Available Scripts
 
 | Command | Description |
