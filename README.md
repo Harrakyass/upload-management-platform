@@ -1,7 +1,7 @@
-# Upload Management Platform
+# Document Management Platform
 
 ## Overview
-The **Upload Management Platform** is a full-stack web application designed to manage document uploads securely and efficiently. It consists of a **React (Vite)** frontend and a **Node.js (Express)** backend, connected to a **PostgreSQL** database.
+The **Document Management Platform** is a full-stack web application designed to manage document uploads securely and efficiently. It consists of a **React (Vite)** frontend and a **Node.js (Express)** backend, connected to a **PostgreSQL** database.
 
 ### Key Features
 - Secure file upload using `multer`
